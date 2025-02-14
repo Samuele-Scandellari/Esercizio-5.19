@@ -4,7 +4,7 @@
 
 int main() {
     int arr[10];
-    srand(time(0));
+    srand(time(NULL));
     for (int i = 0; i < 10; i++) {
         arr[i] = 1 + rand() % 100;
     }
